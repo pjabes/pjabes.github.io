@@ -1,4 +1,4 @@
-baseURL = "https://pjabes.com"
+baseURL = "https://pjabes.github.io"
 title   = "Patrick Abraham"
 languageCode = "en-us"
 theme = "hello-friend-ng"

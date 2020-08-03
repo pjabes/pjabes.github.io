@@ -13,6 +13,9 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd docs
 
+# Add CNAME file
+echo "pabes.me" > CNAME
+
 # Add changes to git.
 git add .
 

@@ -1,4 +1,4 @@
-baseURL = "https://pjabes.github.io"
+baseURL = "https://pabes.me"
 title   = "Patrick Abraham"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -34,7 +34,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Patrick Abraham"
 
 [blackfriday]
   hrefTargetBlank = true

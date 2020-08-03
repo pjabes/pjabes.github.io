@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Patrick Abraham</title>
-    <link>https://pjabes.github.io/series/</link>
+    <link>https://pabes.me/series/</link>
     <description>Recent content in Series on Patrick Abraham</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://pjabes.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pabes.me/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo 101</title>
-      <link>https://pjabes.github.io/series/hugo-101/</link>
+      <link>https://pabes.me/series/hugo-101/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pjabes.github.io/series/hugo-101/</guid>
+      <guid>https://pabes.me/series/hugo-101/</guid>
       <description></description>
     </item>
     

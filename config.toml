@@ -88,7 +88,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "pjabes"
+    logoText     = ""
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     logoCursorDisabled = true
@@ -99,9 +99,9 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    identifier = "about"
+    identifier = "About"
     name       = "About"
-    url        = "about/"
+    url        = "/"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"

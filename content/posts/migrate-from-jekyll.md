@@ -1,9 +1,9 @@
 ---
 author:
-  name: "Hugo Authors"
-date: 2014-03-10
-linktitle: Migrating from Jekyll
-title: Migrate to Hugo from Jekyll
+  name: "Patrick Abraham"
+date: 2020-03-21
+linktitle: Making data driven career decisions - which cert should I complete?
+title: I saved every infosec job in Australia.  Here's what I found. 
 type:
 - post
 - posts
@@ -12,7 +12,10 @@ series:
 - Hugo 101
 aliases:
 - /blog/migrate-from-jekyll/
+draft: true
 ---
+
+## Data is king
 
 ## Move static content to `static`
 Jekyll has a rule that any directory not starting with `_` will be copied as-is to the `_site` output. Hugo keeps all static content under `static`. You should therefore move it all there.

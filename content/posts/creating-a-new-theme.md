@@ -1,6 +1,6 @@
 ---
 author:
-  name: "Michael Henderson"
+  name: "Patrick Abraham"
 date: 2020-09-28
 linktitle: Creating a New Theme
 type:
@@ -10,6 +10,7 @@ title: Creating a New Theme
 weight: 10
 series:
 - Hugo 101
+draft: true
 ---
 
 

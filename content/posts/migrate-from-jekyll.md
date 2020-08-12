@@ -2,13 +2,12 @@
 author:
   name: "Patrick Abraham"
 date: 2020-03-21
-linktitle: Phantom Guardrails 
+linktitle: SOARing by the seat of your pants 
 title: SOARing by the seat of your pants
 type:
 - post
 - posts
 weight: 10
-draft: true
 ---
 
 Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO's wet-dream.  Among things it's often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue.  When done right, this is all true.  But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are ***soaring by the seat of their pants***.
@@ -26,13 +25,12 @@ Involvement from these groups will pay dividends in terms of time-saved and can 
 
 Note:  Many readers may be dismayed at not having access to the above.  Fear not - I've provided some tips to assist below. 
 
-## This begs the question - how can we 
-From my experience, the majority of orgs will over spec their team with SOC Analysts and neglect the skillsets of the software engineers and the process improvement consulantants.  This will often lead to piling technical debt, 
 
-1. Set Strict Standards
-2. Where possibly, codeify your guardrails. 
-3. Ensure that all code is run by these guardrails.
-4. 
+
+## Playbook Selection
+
+
+## Setting Standards and Guardrails
 
 ### Benefits
 * Codification of standards is difficult to enforce, and can be time consuming to deploy at scale. Guardrails can be incorporated 

@@ -6,7 +6,7 @@
     <description>Recent content on Patrick Abraham</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pabes.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,15 +19,6 @@
       <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
       <description>Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO&amp;rsquo;s wet-dream. Among things it&amp;rsquo;s often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue. When done right, this is all true. But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are soaring by the seat of their pants.
 This blog post details some of my experiences, and recommendations, on how to realise the most value from your SOC.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://pabes.me/about/</link>
-      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://pabes.me/about/</guid>
-      <description>This page is not in-use.</description>
     </item>
     
   </channel>

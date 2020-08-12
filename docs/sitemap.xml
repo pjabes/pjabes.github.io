@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pabes.me/about/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -10,6 +15,11 @@
   <url>
     <loc>https://pabes.me/</loc>
     <lastmod>2020-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pabes.me/posts/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>

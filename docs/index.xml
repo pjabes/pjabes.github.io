@@ -12,16 +12,22 @@
     
     
     <item>
+      <title>SOARing by the seat of your pants</title>
+      <link>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
+      <description>Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO&amp;rsquo;s wet-dream. Among things it&amp;rsquo;s often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue. When done right, this is all true. But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are soaring by the seat of their pants.
+This blog post details some of my experiences, and recommendations, on how to realise the most value from your SOC.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://pabes.me/about/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pabes.me/about/</guid>
-      <description>Patrick Abraham  Patrick was here
-zz
-Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+      <description>This page is not in-use.</description>
     </item>
     
   </channel>

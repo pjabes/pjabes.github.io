@@ -1,70 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Patrick Abraham</title>
-        <link>https://pabes.me/posts/</link>
-        <description>Recent content in Posts on Patrick Abraham</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://pabes.me/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>SOARing by the seat of your pants</title>
-            <link>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
-            <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-            
-            <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
-            <description>Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO&amp;rsquo;s wet-dream. Among things it&amp;rsquo;s often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue. When done right, this is all true. But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are soaring by the seat of their pants.
+  <channel>
+    <title>Posts on Patrick Abraham 🤓</title>
+    <link>https://pjabes.me/posts/</link>
+    <description>Recent content in Posts on Patrick Abraham 🤓</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pjabes.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>SOARing by the seat of your pants</title>
+      <link>https://pjabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pjabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
+      <description>Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO&amp;rsquo;s wet-dream. Among things it&amp;rsquo;s often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue. When done right, this is all true. But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are soaring by the seat of their pants.
 This blog post details some of my experiences, and recommendations, on how to realise the most value from your SOC.</description>
-            <content type="html"><![CDATA[<p>Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO&rsquo;s wet-dream.  Among things it&rsquo;s often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue.  When done right, this is all true.  But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are <em><strong>soaring by the seat of their pants</strong></em>.</p>
-<p>This blog post details some of my experiences, and recommendations, on how to realise the most value from your SOC.</p>
-<h3 id="the-avengers-of-playbook-development">The Avengers of Playbook Development</h3>
-<p>Most organisations will typically throw their SOC Analysts to both lead and operate the Orchestration program.  This is not without issues; orchestration is a multidisciplinary effort and the skillsets required to build a successful playbook are difficult to find (see: expensive) and as such it may be worth partnering with the following roles within your organisation:</p>
-<ul>
-<li>
-<p>Software Engineers - these people bring the engineering know-how on building production ready code that adheres to common software development best practices.  These practices are crucial for ensuring that your playbooks are sustainable and ultimately lead to less time spent in running costs.</p>
-</li>
-<li>
-<p>Business Analysts - these people ensure that playbook processes are running as efficiently as possible and that the business is maximising it&rsquo;s &ldquo;bang for buck&rdquo; in candidate selection, etc.</p>
-</li>
-</ul>
-<p>Involvement from these groups will pay dividends in terms of time-saved and can be engaged on short one-week stints.</p>
-<p>Note:  Many readers may be dismayed at not having access to the above.  Fear not - I&rsquo;ve provided some tips to assist below.</p>
-<h3 id="wip---more-to-come">WIP - More to come!</h3>
-<h2 id="playbook-selection">Playbook Selection</h2>
-<h2 id="setting-standards-and-guardrails">Setting Standards and Guardrails</h2>
-<h3 id="benefits">Benefits</h3>
-<ul>
-<li>Codification of standards is difficult to enforce, and can be time consuming to deploy at scale. Guardrails can be incorporated</li>
-<li>Applications (developed by third parties or not) may require some guardrails to function better. For instance, the Phantom Splunk App will default any search to real-time. This is problematic for a number of reasons.</li>
-</ul>
-<h2 id="use-cases">Use-cases</h2>
-<table>
-<thead>
-<tr>
-<th>Use Case</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Playbook Name Conventions</td>
-<td>Enforces strict naming convention of playbooks to differentiate between &lsquo;master playbooks&rsquo; and &lsquo;utility playbooks&rsquo;.</td>
-</tr>
-<tr>
-<td>Action Name Conventions</td>
-<td>Enforces strict naming conventions of actions.</td>
-</tr>
-<tr>
-<td>All Time Search Guardrail</td>
-<td>&quot;run query&rdquo; of Splunk&rsquo;s Phantom App will default to an all-time search unless the SPL contains &ldquo;@earliest&rdquo; and &ldquo;@latest&rdquo;.</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<p>[1] - Reference for</p>
-]]></content>
-        </item>
-        
-    </channel>
+    </item>
+    
+    
+    
+    
+  </channel>
 </rss>

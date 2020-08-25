@@ -5,6 +5,7 @@ languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+publishDir = "docs"
 
 [params]
   description = "Cybersecurity Detection and Automation"
@@ -36,15 +37,3 @@ pygmentsUseClasses = true
 
   [markup.tableOfContents]
     ordered = true
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "docs"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpired = false
-canonifyURLs = true
-

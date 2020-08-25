@@ -1,7 +1,7 @@
 baseURL = "https://pabes.me"
 title   = "Patrick Abraham"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "etch"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"

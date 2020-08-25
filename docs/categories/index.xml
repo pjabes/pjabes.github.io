@@ -14,11 +14,11 @@
     <item>
       <title>SOARing by the seat of your pants</title>
       <link>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
-      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
-      <description>Conceptually, Security Orchestration, Automation and Response (SOAR) is a CISO&amp;rsquo;s wet-dream. Among things it&amp;rsquo;s often sold as a way of reducing FTE, improving metrics such as TTR and a manner of minimising attrition and/or analyst fatigue. When done right, this is all true. But unfortunately, many orgs find it difficult to reach value realisation with SOAR and in a way, are soaring by the seat of their pants.
-This blog post details some of my experiences, and recommendations, on how to realise the most value from your SOC.</description>
+      <description>There&amp;rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&amp;rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</description>
     </item>
     
     

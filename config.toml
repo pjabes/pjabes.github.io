@@ -1,14 +1,41 @@
-baseURL = "https://pabes.me"
-title   = "Patrick Abraham"
-languageCode = "en-us"
+baseURL = "https://pjabes.me"
+title = "Patrick Abraham 🤓"
 theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+[params]
+  description = "Cybersecurity Detection and Automation"
+  copyright = ""
+  dark = "auto"
+  highlight = true
 
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "" # This message is only used by the RSS template.
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/posts/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -21,87 +48,3 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:title/"
-
-[author]
-  name = "Patrick Abraham"
-
-[blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
-
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Patrick Abraham's blog on security"
-  keywords = "cyber security melbourne"
-
-  homeSubtitle = ""
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
-
-  # Sharing buttons
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  enableSharingButtons = true
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .post-content.
-
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
-
-  [params.logo]
-    logoText     = ""
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = true
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    logoCursorAnimate  = "0s"
-
-[menu]
-  [[menu.main]]
-    identifier = "About"
-    name       = "About"
-    url        = "/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"

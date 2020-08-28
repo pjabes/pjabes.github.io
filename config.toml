@@ -1,6 +1,6 @@
 baseURL = "https://pabes.me"
 title = "Patrick Abraham 🤓"
-theme = "etch"
+theme = "mediumish-gohugo-theme"
 languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true

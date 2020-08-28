@@ -15,21 +15,18 @@ publishDir = "docs"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
-    url = "/"
+    identifier = "blog"
+    name = "blog"
+    title = "blog"
+    url = "/blog/"
     weight = 10
 
   [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
-    url = "/about/"
+    url = "/about"
     weight = 20
-
-[permalinks]
-  posts = "/posts/:title/"
 
 [markup.goldmark.renderer]
   # Allow HTML in Markdown

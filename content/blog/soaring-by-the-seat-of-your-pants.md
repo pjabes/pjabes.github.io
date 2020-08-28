@@ -4,9 +4,6 @@ author:
 date: 2019-08-21
 linktitle: SOARing by the seat of your pants 
 title: SOARing by the seat of your pants
-type:
-- post
-- posts
 weight: 10
 ---
 

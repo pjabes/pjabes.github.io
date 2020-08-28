@@ -1,12 +1,12 @@
 baseURL = "https://pabes.me"
-title = "Patrick Abraham 🤓"
-theme = "mediumish-gohugo-theme"
+title = "Patrick Abraham"
+theme = "medium-pabes"
 languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 publishDir = "docs"
-
+summaryLength = 10
 [params]
   description = "Cybersecurity Detection and Automation"
   copyright = ""
@@ -19,14 +19,14 @@ publishDir = "docs"
     name = "blog"
     title = "blog"
     url = "/blog/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
-    url = "/about"
-    weight = 20
+    url = "/"
+    weight = 10
 
 [markup.goldmark.renderer]
   # Allow HTML in Markdown

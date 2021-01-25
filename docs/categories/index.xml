@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Patrick Abraham</title>
+    <title>Categories on Patrick Abraham 🤓</title>
     <link>https://pabes.me/categories/</link>
-    <description>Recent content in Categories on Patrick Abraham</description>
+    <description>Recent content in Categories on Patrick Abraham 🤓</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
 	<atom:link href="https://pabes.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>SOARing by the seat of your pants</title>
+      <link>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
+      <description>There&amp;rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&amp;rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</description>
+    </item>
+    
+    
     
     
   </channel>

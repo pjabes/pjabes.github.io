@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity Detection and Automation">
+    
+    <link rel="shortcut icon" href="https://pabes.me/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>SOARing by the seat of your pants</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://pabes.me">Patrick Abraham 🤓</a></h2>
+    <nav>
+        <ul>
+            
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li>
+            
+            <li>
+                <a href="/about/" title="about">about</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>SOARing by the seat of your pants</h1><time>August 21, 2019</time></header><p>There&rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself.  A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&rsquo;s wet dream.  But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are <em><strong>soaring by the seat of their pants</strong></em>.</p>
+<p>This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</p>
+<hr>
+<h3 id="building-the-right-team">Building the right team</h3>
+<p>Many SOCs will assume that playbooks can wholely be written by SOC analysts, but in my experience, many SOCs will have difficulties scaling this approach as bad software engineering practices and technical debt consume work products.  If I was building a team, I&rsquo;d be looking for the following skills</p>
+<ul>
+<li>
+<p>SOC skills.  Not really a shock, but SOC analysts should be involved throughout the playbook development phase and act as an SME.</p>
+</li>
+<li>
+<p>Software Engineering.  These people bring the engineering know-how on building production-ready code.  Involving them early in the project will save headaches down the track by ensuring that the framework to build playbooks is architectually sound and scalable.</p>
+</li>
+<li>
+<p>process improvement/consulting skills - remembering that doing an inefficient process quickly is still inefficient, it may be worth involving a business analyst to undertake some process optimisation and seeking the most &ldquo;bang for buck&rdquo; in playbook candidate selection, etc.</p>
+</li>
+</ul>
+<p>Finding an individual that poses all of the skills can be difficult (see: expensive).  So get creative - perhaps you can partner with the business to borrow some software engineers on a short term basis.</p>
+<hr>
+<h3 id="wip---more-to-come">WIP - More to come!</h3>
+<h2 id="playbook-selection">Playbook Selection</h2>
+<h2 id="setting-standards-and-guardrails">Setting Standards and Guardrails</h2>
+<h3 id="benefits">Benefits</h3>
+<ul>
+<li>Codification of standards is difficult to enforce, and can be time consuming to deploy at scale. Guardrails can be incorporated</li>
+<li>Applications (developed by third parties or not) may require some guardrails to function better. For instance, the Phantom Splunk App will default any search to real-time. This is problematic for a number of reasons.</li>
+</ul>
+<h2 id="use-cases">Use-cases</h2>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Playbook Name Conventions</td>
+<td>Enforces strict naming convention of playbooks to differentiate between &lsquo;master playbooks&rsquo; and &lsquo;utility playbooks&rsquo;.</td>
+</tr>
+<tr>
+<td>Action Name Conventions</td>
+<td>Enforces strict naming conventions of actions.</td>
+</tr>
+<tr>
+<td>All Time Search Guardrail</td>
+<td>&quot;run query&rdquo; of Splunk&rsquo;s Phantom App will default to an all-time search unless the SPL contains &ldquo;@earliest&rdquo; and &ldquo;@latest&rdquo;.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>[1] - Reference for</p>
+</article>
+
+        </main><footer id="footer" style="font-size: 10px;">
+    
+</footer>
+</body>
+</html>

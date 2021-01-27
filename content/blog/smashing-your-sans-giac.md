@@ -42,8 +42,6 @@ I'd also recommend incorporating a bunch of other references within the cheatshe
 
 
 
-
-
 https://github.com/chrisjd20/Blue-Team-Cheat-Sheets/
 
 #### Other References:

@@ -19,7 +19,6 @@ At time of writing, I've been lucky enough to undertake [FOR508: Advanced Incide
 ### Learn 2 Learn
 SANS courses are well known for their difficulty which often comes in part by their length and breadth of content.  Instructor led courses are typically 5 or 6 days in duration for which most students will require an additional month or two to study outside of class to pass the GIAC exam.  Realising this, before my first SANs course I undertook a short course in learning how to learn.  The idea behind this was I wanted to maximise **effective** studying whilst minimising **ineffective** studying.  It's hard to provide a quantitative measure about how successful this was but I do feel it helped reinforce good habits.
 
-
 I used Coursera's free [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) to be useful not only for SANS but for life.  If you haven't got the 15 hours to dedicate you can always read a TL;DR such as [this](https://medium.com/learn-love-code/learnings-from-learning-how-to-learn-19d149920dc4) one that should give you some orientation. 
 ----
 

@@ -1,0 +1,32 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+                        
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+                <header>
+                    <h1 class="index-title">Patrick Abraham</h1>
+                </header>
+            </div>
+            <div>
+                <section>
+                    <p>Patrick is an information security professional with a keen interest in finding and responding to adversaries.  Equipped with a strong engineering background, Patrick has a track record of developing Detection and Automation use-cases for financial instiutions across the APAC region.</p>
+                    <p>Want to get in contact?  Feel free to reach out on <a href="https://www.linkedin.com/in/pabes/">LinkedIn</a>.</p>
+                </section>
+            </div>            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+{{end}}
+
+{{ define "footer" }}
+    {{- partial "_shared/footer.html" . -}}
+{{end}}

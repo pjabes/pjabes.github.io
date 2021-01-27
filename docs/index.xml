@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Patrick Abraham 🤓</title>
+    <title>Patrick Abraham</title>
     <link>https://pabes.me/</link>
-    <description>Recent content on Patrick Abraham 🤓</description>
+    <description>Recent content on Patrick Abraham</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
@@ -11,42 +11,32 @@
 	<atom:link href="https://pabes.me/index.xml" rel="self" type="application/rss+xml" />
     
     
-    
     <item>
-<<<<<<< HEAD
       <title>Smashing Your SANS Course</title>
-      <link>https://pabes.me/blog/smashing-your-sans-giac-exam/</link>
+      <link>https://pabes.me/blog/smashing-your-sans-giac/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pabes.me/blog/smashing-your-sans-giac-exam/</guid>
+      <guid>https://pabes.me/blog/smashing-your-sans-giac/</guid>
       <description>Introduction If you&amp;rsquo;re reading this post, you likely know of the SANS course and GIAC certification.</description>
     </item>
     
     <item>
       <title>SOARing by the seat of your pants</title>
-      <link>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
+      <link>https://pabes.me/blog/soaring-by-the-seat-of-your-pants/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
-      <description>There&amp;rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&amp;rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
-This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</description>
+      <guid>https://pabes.me/blog/soaring-by-the-seat-of-your-pants/</guid>
+      <description>There&amp;rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself.</description>
     </item>
-=======
-      <title>SOARing by the seat of your pants</title>
-      <link>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+    
+    <item>
+      <title>About</title>
+      <link>https://pabes.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</guid>
-      <description>There&amp;rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&amp;rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
-This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</description>
+      <guid>https://pabes.me/about/</guid>
+      <description>Patrick is an information security professional with a keen interest in finding and responding to adversaries.</description>
     </item>
-    
-    
-    
->>>>>>> parent of 79e9b8a... rebuilding site Fri 28 Aug 2020 18:24:14 AEST
-    
-    
-    
     
   </channel>
 </rss>

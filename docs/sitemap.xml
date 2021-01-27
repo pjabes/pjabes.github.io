@@ -3,34 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <loc>https://pabes.me/blog/smashing-your-sans-giac-exam/</loc>
-=======
-    <loc>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</loc>
->>>>>>> parent of 79e9b8a... rebuilding site Fri 28 Aug 2020 18:24:14 AEST
+    <loc>https://pabes.me/blog/smashing-your-sans-giac/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>https://pabes.me/blog/soaring-by-the-seat-of-your-pants/</loc>
-=======
-    <loc>https://pabes.me/posts/soaring-by-the-seat-of-your-pants/</loc>
->>>>>>> parent of 79e9b8a... rebuilding site Fri 28 Aug 2020 18:24:14 AEST
-=======
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pabes.me/blog/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pabes.me/</loc>
->>>>>>> parent of 79e9b8a... rebuilding site Fri 28 Aug 2020 18:24:14 AEST
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pabes.me/posts/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pabes.me/posts/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   

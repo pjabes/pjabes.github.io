@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://pabes.me/images/favicon.png" />
+<title>Smashing Your SANS Course | pabes</title>
+<meta name="title" content="Smashing Your SANS Course" />
+<meta name="description" content="Introduction If you&rsquo;re reading this post, you likely know of the SANS course and associated GIAC certification. You&rsquo;re likely about to sit your course and/or exam and are looking for some tips and tricks to maximise the amount of value you get out of this eye-wateringly expensive course. This post is an overview of the tips and tricks that I have for smashing your SANS GIAC experience.
+At time of writing, I&rsquo;ve been lucky enough to undertake FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics and SEC511: Continuous Monitoring and Security Operations and successfully pass both associated exams to become GCFA and GMON certified." />
+<meta name="keywords" content="markdown,syntax," />
+
+
+<meta property="og:title" content="Smashing Your SANS Course" />
+<meta property="og:description" content="Introduction If you&rsquo;re reading this post, you likely know of the SANS course and associated GIAC certification. You&rsquo;re likely about to sit your course and/or exam and are looking for some tips and tricks to maximise the amount of value you get out of this eye-wateringly expensive course. This post is an overview of the tips and tricks that I have for smashing your SANS GIAC experience.
+At time of writing, I&rsquo;ve been lucky enough to undertake FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics and SEC511: Continuous Monitoring and Security Operations and successfully pass both associated exams to become GCFA and GMON certified." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pabes.me/smashing-your-sans-course/" />
+<meta property="og:image" content="https://pabes.me/images/share.png"/>
+<meta property="article:published_time" content="2019-08-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-08-21T00:00:00+00:00" /><meta property="og:site_name" content="pabes.me" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pabes.me/images/share.png"/>
+
+<meta name="twitter:title" content="Smashing Your SANS Course"/>
+<meta name="twitter:description" content="Introduction If you&rsquo;re reading this post, you likely know of the SANS course and associated GIAC certification. You&rsquo;re likely about to sit your course and/or exam and are looking for some tips and tricks to maximise the amount of value you get out of this eye-wateringly expensive course. This post is an overview of the tips and tricks that I have for smashing your SANS GIAC experience.
+At time of writing, I&rsquo;ve been lucky enough to undertake FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics and SEC511: Continuous Monitoring and Security Operations and successfully pass both associated exams to become GCFA and GMON certified."/>
+
+
+
+<meta itemprop="name" content="Smashing Your SANS Course">
+<meta itemprop="description" content="Introduction If you&rsquo;re reading this post, you likely know of the SANS course and associated GIAC certification. You&rsquo;re likely about to sit your course and/or exam and are looking for some tips and tricks to maximise the amount of value you get out of this eye-wateringly expensive course. This post is an overview of the tips and tricks that I have for smashing your SANS GIAC experience.
+At time of writing, I&rsquo;ve been lucky enough to undertake FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics and SEC511: Continuous Monitoring and Security Operations and successfully pass both associated exams to become GCFA and GMON certified.">
+<meta itemprop="datePublished" content="2019-08-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-08-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="743">
+<meta itemprop="image" content="https://pabes.me/images/share.png"/>
+
+
+
+<meta itemprop="keywords" content="markdown,syntax," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>pabes</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Smashing Your SANS Course</h1>
+<p>
+  <i>
+    <time datetime='2019-08-21' pubdate>
+      21 Aug, 2019
+    </time>
+  </i>
+</p>
+
+<content>
+  <h2 id="introduction">Introduction</h2>
+<p>If you&rsquo;re reading this post, you likely know of the SANS course and associated GIAC certification.  You&rsquo;re likely about to sit your course and/or exam and are looking for some tips and tricks to maximise the amount of value you get out of this eye-wateringly expensive course.  This post is an overview of the tips and tricks that I have for smashing your SANS GIAC experience.</p>
+<p>At time of writing, I&rsquo;ve been lucky enough to undertake <a href="https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/">FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics</a> and <a href="https://www.sans.org/cyber-security-courses/continuous-monitoring-security-operations/">SEC511: Continuous Monitoring and Security Operations</a> and successfully pass both associated exams to become GCFA and GMON certified.</p>
+<blockquote>
+<p><em>Disclaimer - as per the agreements signed during the course.  I will <strong>not</strong> be sharing any notes/exam questions or material from these exams.  Please do not ask!  Also you should definitely do your research about any of the guidelines I provide about notes, timings, etc.  As with many courses these are subject to change at a moments notice.</em></p>
+</blockquote>
+<hr>
+<h2 id="table-of-contents">Table of Contents</h2>
+<hr>
+<h3 id="learn-to-learn">Learn to Learn</h3>
+<p>SANS courses are well known for their difficulty which often comes in part by their length and breadth of content.  Instructor led courses are typically 5 or 6 days in duration for which most students will require an additional month or two to study outside of class to pass the GIAC exam.  Realising this, before my first SANs course I undertook a short course in learning how to learn.  The idea behind this was I wanted to maximise <strong>effective</strong> studying whilst minimising <strong>ineffective</strong> studying.  It&rsquo;s hard to provide a quantitative measure about how successful this was but I do feel it helped reinforce good habits.</p>
+<p>I used Coursera&rsquo;s free <a href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn</a> to be useful not only for SANS but for life.  If you haven&rsquo;t got the 15 hours to dedicate you can always read a TL;DR such as <a href="https://medium.com/learn-love-code/learnings-from-learning-how-to-learn-19d149920dc4">this</a> one that should give you some orientation.</p>
+<hr>
+<h3 id="carve-time-and-what-to-bring">Carve Time and What to Bring</h3>
+<ul>
+<li>The fast pace of these courses should mean you don&rsquo;t want to be wasting time fiddling around.  This can be tricky w/ SecOps as many of us find ourselves &ldquo;always on&rdquo;.<br>
+[] Where possible, complete pre-work such as setting up the labs.<br>
+[] Setup your environment to be distraction free, this means letting your boss/colleagues/etc know that during these times you are not available.
+[]</li>
+</ul>
+<hr>
+<h3 id="during---taking-notes">During - Taking Notes:</h3>
+<p>I found the most effective note taking method was taking writing within the margins of the</p>
+<h3 id="during-creating-an-index">During: Creating an Index</h3>
+<p>GIAC Exams are open-book, meaning you may bring in any desired <em>hardcopy</em> notes and references<a href="https://www.giac.org/exams/preparation">1</a>.  As such, it&rsquo;s highly recommended that you bring an index in for the hardcopy notes.  This index will allow you to reference different sections much faster than if you were manually trudging through the pages one by one.  Despite what others may say, I really do not believe there to be a definitive &ldquo;best-way&rdquo; for index creation, so I&rsquo;d pick something like thi</p>
+<ul>
+<li>First and foremost - figure out what works for you and what does not.  During the research phase of my SANS and GIAC experience I found a variety of blog posts (listed below) that outline their way for building the index, some sounded prescriptive whilst others just provided guidelines.  Do something that works for you (and I&rsquo;ll provide some tips later about how to evaluate this).</li>
+<li></li>
+</ul>
+<p>During my prearation experience I read from a number of difference sources which each took slightly different ways, but having undertaken two exams I&rsquo;d recommend just playing around with it during the practice exams.  Figure out what works for you and what does not, for example, I found it incredibly more useful to separate tools from the index and if there was ever a question on tools I would reference that section as a quicker lookup.  I also found it incredibly useful to colour code and divide sections with a title preface.  For example, if a section was to to be talking about the different types of accounts I would broadly leverage the information provided.</p>
+<p>Additionally, I&rsquo;d recommend attaching a cheatsheet at the end with things that you know you are weak with.  For me, I leveraged parts of <a href="https://github.com/chrisjd20/Blue-Team-Cheat-Sheets/">chrisjd20&rsquo;s blue team cheatsheet</a></p>
+<hr>
+<p>I&rsquo;d also recommend incorporating a bunch of other references within the cheatsheet, things like a quick lookup for port numbers</p>
+<p><a href="https://github.com/chrisjd20/Blue-Team-Cheat-Sheets/">https://github.com/chrisjd20/Blue-Team-Cheat-Sheets/</a></p>
+<h4 id="other-references">Other References:</h4>
+<ul>
+<li><a href="https://br0nw3n.com/2018/10/making-a-giac-exam-index/">Making a GIAC Exam Index</a></li>
+</ul>
+<h3 id="tip-3-add-your-own-referencesnote">Tip 3: Add your own references/note</h3>
+<p>Testing policy dictates that are</p>
+<h3 id="references">References</h3>
+<h2 id="tldr">TL;DR</h2>
+<p>[1] - <a href="https://www.giac.org/exams/preparation">https://www.giac.org/exams/preparation</a></p>
+
+</content>
+
+  </main>
+  <footer>
+</footer>
+
+    
+</body>
+
+</html>

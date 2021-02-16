@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://pabes.me/images/favicon.png" />
+<title>SOARing by the seat of your pants | pabes</title>
+<meta name="title" content="SOARing by the seat of your pants" />
+<meta name="description" content="There&rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:title" content="SOARing by the seat of your pants" />
+<meta property="og:description" content="There&rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pabes.me/soaring-by-the-seat-of-your-pants/" />
+<meta property="og:image" content="https://pabes.me/images/share.png"/>
+<meta property="article:published_time" content="2019-08-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-08-21T00:00:00+00:00" /><meta property="og:site_name" content="pabes.me" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pabes.me/images/share.png"/>
+
+<meta name="twitter:title" content="SOARing by the seat of your pants"/>
+<meta name="twitter:description" content="There&rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment."/>
+
+
+
+<meta itemprop="name" content="SOARing by the seat of your pants">
+<meta itemprop="description" content="There&rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.">
+<meta itemprop="datePublished" content="2019-08-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-08-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="392">
+<meta itemprop="image" content="https://pabes.me/images/share.png"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>pabes</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>SOARing by the seat of your pants</h1>
+<p>
+  <i>
+    <time datetime='2019-08-21' pubdate>
+      21 Aug, 2019
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>There&rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself.  A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&rsquo;s wet dream.  But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are <em><strong>soaring by the seat of their pants</strong></em>.</p>
+<p>This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</p>
+<hr>
+<h3 id="building-the-right-team">Building the right team</h3>
+<p>Many SOCs will assume that playbooks can wholely be written by SOC analysts, but in my experience, many SOCs will have difficulties scaling this approach as bad software engineering practices and technical debt consume work products.  If I was building a team, I&rsquo;d be looking for the following skills</p>
+<ul>
+<li>
+<p>SOC skills.  Not really a shock, but SOC analysts should be involved throughout the playbook development phase and act as an SME.</p>
+</li>
+<li>
+<p>Software Engineering.  These people bring the engineering know-how on building production-ready code.  Involving them early in the project will save headaches down the track by ensuring that the framework to build playbooks is architectually sound and scalable.</p>
+</li>
+<li>
+<p>process improvement/consulting skills - remembering that doing an inefficient process quickly is still inefficient, it may be worth involving a business analyst to undertake some process optimisation and seeking the most &ldquo;bang for buck&rdquo; in playbook candidate selection, etc.</p>
+</li>
+</ul>
+<p>Finding an individual that poses all of the skills can be difficult (see: expensive).  So get creative - perhaps you can partner with the business to borrow some software engineers on a short term basis.</p>
+<hr>
+<h3 id="wip---more-to-come">WIP - More to come!</h3>
+<h2 id="playbook-selection">Playbook Selection</h2>
+<h2 id="setting-standards-and-guardrails">Setting Standards and Guardrails</h2>
+<h3 id="benefits">Benefits</h3>
+<ul>
+<li>Codification of standards is difficult to enforce, and can be time consuming to deploy at scale. Guardrails can be incorporated</li>
+<li>Applications (developed by third parties or not) may require some guardrails to function better. For instance, the Phantom Splunk App will default any search to real-time. This is problematic for a number of reasons.</li>
+</ul>
+<h2 id="use-cases">Use-cases</h2>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Playbook Name Conventions</td>
+<td>Enforces strict naming convention of playbooks to differentiate between &lsquo;master playbooks&rsquo; and &lsquo;utility playbooks&rsquo;.</td>
+</tr>
+<tr>
+<td>Action Name Conventions</td>
+<td>Enforces strict naming conventions of actions.</td>
+</tr>
+<tr>
+<td>All Time Search Guardrail</td>
+<td>&quot;run query&rdquo; of Splunk&rsquo;s Phantom App will default to an all-time search unless the SPL contains &ldquo;@earliest&rdquo; and &ldquo;@latest&rdquo;.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>[1] - Reference for</p>
+
+</content>
+
+  </main>
+  <footer>
+</footer>
+
+    
+</body>
+
+</html>

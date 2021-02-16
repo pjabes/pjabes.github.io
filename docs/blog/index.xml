@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on pabes</title>
+    <link>https://pabes.me/blog/</link>
+    <description>Recent content in Blogs on pabes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>©</copyright>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pabes.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Smashing Your SANS Course</title>
+      <link>https://pabes.me/smashing-your-sans-course/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pabes.me/smashing-your-sans-course/</guid>
+      <description>Introduction If you&amp;rsquo;re reading this post, you likely know of the SANS course and associated GIAC certification. You&amp;rsquo;re likely about to sit your course and/or exam and are looking for some tips and tricks to maximise the amount of value you get out of this eye-wateringly expensive course. This post is an overview of the tips and tricks that I have for smashing your SANS GIAC experience.
+At time of writing, I&amp;rsquo;ve been lucky enough to undertake FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics and SEC511: Continuous Monitoring and Security Operations and successfully pass both associated exams to become GCFA and GMON certified.</description>
+    </item>
+    
+    <item>
+      <title>SOARing by the seat of your pants</title>
+      <link>https://pabes.me/soaring-by-the-seat-of-your-pants/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pabes.me/soaring-by-the-seat-of-your-pants/</guid>
+      <description>There&amp;rsquo;s a lot of hype with Security Orchestration, Automation and Response (SOAR) and on paper it basically sells itself. A product that improves Time To Respond (TTR) metrics whilst decreasing FTE count is a CISO&amp;rsquo;s wet dream. But unfortunately, many orgs find it difficult to realise value with their SOAR products and in a way are soaring by the seat of their pants.
+This blog post provides some (no marketting) recommendations on how you can realise the most value from your SOAR investment.</description>
+    </item>
+    
+  </channel>
+</rss>

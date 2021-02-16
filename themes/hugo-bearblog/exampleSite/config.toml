@@ -1,3 +1,4 @@
+
 baseURL = "https://example.com"
 
 # The name of this wonderful theme ;-).
@@ -8,6 +9,9 @@ title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
 author = "Jane Doe"
 copyright = "Copyright © 2020, Jane Doe."
 languageCode = "en-US"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]

@@ -5,6 +5,10 @@ date: 2019-08-21
 linktitle: smashing-your-sans-giac 
 title: Smashing Your SANS Course
 weight: 10
+tags: [
+    "markdown",
+    "syntax",
+]
 ---
 
 ## Introduction
